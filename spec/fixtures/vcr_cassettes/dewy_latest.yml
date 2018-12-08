@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/linyows/dewy/releases/latest
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.13.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 09 Dec 2018 01:47:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '59'
+      X-Ratelimit-Reset:
+      - '1544323622'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"1859956e18c2b8b97db5cfadbce81375"
+      Last-Modified:
+      - Wed, 05 Dec 2018 03:18:09 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - D5C3:30A2:75ADA8:965AFE:5C0C7415
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url":"https://api.github.com/repos/linyows/dewy/releases/14353571","assets_url":"https://api.github.com/repos/linyows/dewy/releases/14353571/assets","upload_url":"https://uploads.github.com/repos/linyows/dewy/releases/14353571/assets{?name,label}","html_url":"https://github.com/linyows/dewy/releases/tag/v0.6.0","id":14353571,"node_id":"MDc6UmVsZWFzZTE0MzUzNTcx","tag_name":"v0.6.0","target_commitish":"master","name":"v0.6.0","draft":false,"author":{"login":"linyows","id":72049,"node_id":"MDQ6VXNlcjcyMDQ5","avatar_url":"https://avatars1.githubusercontent.com/u/72049?v=4","gravatar_id":"","url":"https://api.github.com/users/linyows","html_url":"https://github.com/linyows","followers_url":"https://api.github.com/users/linyows/followers","following_url":"https://api.github.com/users/linyows/following{/other_user}","gists_url":"https://api.github.com/users/linyows/gists{/gist_id}","starred_url":"https://api.github.com/users/linyows/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linyows/subscriptions","organizations_url":"https://api.github.com/users/linyows/orgs","repos_url":"https://api.github.com/users/linyows/repos","events_url":"https://api.github.com/users/linyows/events{/privacy}","received_events_url":"https://api.github.com/users/linyows/received_events","type":"User","site_admin":false},"prerelease":false,"created_at":"2018-12-05T03:07:55Z","published_at":"2018-12-05T03:18:09Z","assets":[{"url":"https://api.github.com/repos/linyows/dewy/releases/assets/10000821","id":10000821,"node_id":"MDEyOlJlbGVhc2VBc3NldDEwMDAwODIx","name":"checksums.txt","label":"","uploader":{"login":"linyows","id":72049,"node_id":"MDQ6VXNlcjcyMDQ5","avatar_url":"https://avatars1.githubusercontent.com/u/72049?v=4","gravatar_id":"","url":"https://api.github.com/users/linyows","html_url":"https://github.com/linyows","followers_url":"https://api.github.com/users/linyows/followers","following_url":"https://api.github.com/users/linyows/following{/other_user}","gists_url":"https://api.github.com/users/linyows/gists{/gist_id}","starred_url":"https://api.github.com/users/linyows/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linyows/subscriptions","organizations_url":"https://api.github.com/users/linyows/orgs","repos_url":"https://api.github.com/users/linyows/repos","events_url":"https://api.github.com/users/linyows/events{/privacy}","received_events_url":"https://api.github.com/users/linyows/received_events","type":"User","site_admin":false},"content_type":"text/plain;
+        charset=utf-8","state":"uploaded","size":273,"download_count":0,"created_at":"2018-12-05T03:18:10Z","updated_at":"2018-12-05T03:18:10Z","browser_download_url":"https://github.com/linyows/dewy/releases/download/v0.6.0/checksums.txt"},{"url":"https://api.github.com/repos/linyows/dewy/releases/assets/10000819","id":10000819,"node_id":"MDEyOlJlbGVhc2VBc3NldDEwMDAwODE5","name":"dewy_darwin_amd64.tar.gz","label":"","uploader":{"login":"linyows","id":72049,"node_id":"MDQ6VXNlcjcyMDQ5","avatar_url":"https://avatars1.githubusercontent.com/u/72049?v=4","gravatar_id":"","url":"https://api.github.com/users/linyows","html_url":"https://github.com/linyows","followers_url":"https://api.github.com/users/linyows/followers","following_url":"https://api.github.com/users/linyows/following{/other_user}","gists_url":"https://api.github.com/users/linyows/gists{/gist_id}","starred_url":"https://api.github.com/users/linyows/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linyows/subscriptions","organizations_url":"https://api.github.com/users/linyows/orgs","repos_url":"https://api.github.com/users/linyows/repos","events_url":"https://api.github.com/users/linyows/events{/privacy}","received_events_url":"https://api.github.com/users/linyows/received_events","type":"User","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":3651848,"download_count":0,"created_at":"2018-12-05T03:18:10Z","updated_at":"2018-12-05T03:18:10Z","browser_download_url":"https://github.com/linyows/dewy/releases/download/v0.6.0/dewy_darwin_amd64.tar.gz"},{"url":"https://api.github.com/repos/linyows/dewy/releases/assets/10000822","id":10000822,"node_id":"MDEyOlJlbGVhc2VBc3NldDEwMDAwODIy","name":"dewy_linux_amd64.tar.gz","label":"","uploader":{"login":"linyows","id":72049,"node_id":"MDQ6VXNlcjcyMDQ5","avatar_url":"https://avatars1.githubusercontent.com/u/72049?v=4","gravatar_id":"","url":"https://api.github.com/users/linyows","html_url":"https://github.com/linyows","followers_url":"https://api.github.com/users/linyows/followers","following_url":"https://api.github.com/users/linyows/following{/other_user}","gists_url":"https://api.github.com/users/linyows/gists{/gist_id}","starred_url":"https://api.github.com/users/linyows/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linyows/subscriptions","organizations_url":"https://api.github.com/users/linyows/orgs","repos_url":"https://api.github.com/users/linyows/repos","events_url":"https://api.github.com/users/linyows/events{/privacy}","received_events_url":"https://api.github.com/users/linyows/received_events","type":"User","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":3521692,"download_count":11,"created_at":"2018-12-05T03:18:10Z","updated_at":"2018-12-05T03:18:10Z","browser_download_url":"https://github.com/linyows/dewy/releases/download/v0.6.0/dewy_linux_amd64.tar.gz"},{"url":"https://api.github.com/repos/linyows/dewy/releases/assets/10000820","id":10000820,"node_id":"MDEyOlJlbGVhc2VBc3NldDEwMDAwODIw","name":"dewy_windows_amd64.tar.gz","label":"","uploader":{"login":"linyows","id":72049,"node_id":"MDQ6VXNlcjcyMDQ5","avatar_url":"https://avatars1.githubusercontent.com/u/72049?v=4","gravatar_id":"","url":"https://api.github.com/users/linyows","html_url":"https://github.com/linyows","followers_url":"https://api.github.com/users/linyows/followers","following_url":"https://api.github.com/users/linyows/following{/other_user}","gists_url":"https://api.github.com/users/linyows/gists{/gist_id}","starred_url":"https://api.github.com/users/linyows/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linyows/subscriptions","organizations_url":"https://api.github.com/users/linyows/orgs","repos_url":"https://api.github.com/users/linyows/repos","events_url":"https://api.github.com/users/linyows/events{/privacy}","received_events_url":"https://api.github.com/users/linyows/received_events","type":"User","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":3440556,"download_count":0,"created_at":"2018-12-05T03:18:10Z","updated_at":"2018-12-05T03:18:10Z","browser_download_url":"https://github.com/linyows/dewy/releases/download/v0.6.0/dewy_windows_amd64.tar.gz"}],"tarball_url":"https://api.github.com/repos/linyows/dewy/tarball/v0.6.0","zipball_url":"https://api.github.com/repos/linyows/dewy/zipball/v0.6.0","body":"##
+        Changelog\n\n0740e73 Merge branch ''master'' of github.com:linyows/dewy\n9125b23
+        Merge pull request #7 from linyows/cov\n7e1d6a9 Merge pull request #8 from
+        linyows/pre-release\n6767cb3 Update README.md\n4ccbe70 add Env\n9c0fc6e add
+        GO111MODULE=on\ne9addc9 add badge for codecov\nf901f1d add diff\n7a53799 add
+        pre-release option\nb748dcc add repo.latest()\n91ea61c add todo to README.md\nd9fdbec
+        clean before build\n83e236f cli to private\n639811a export coverage profile\nf2077c5
+        fix Makefile\n6148f4d ignore coverage.txt\ncde0bfe include timestamp for assets
+        key\n5f70503 move file as package\n7bb0cf9 prelease option is bool\nbe61b26
+        remove unnecessary var\n59d2a61 remove unused packages\n2218d72 replace golint
+        url\n9dd4c5f send coverage profile to codecov\n24bd170 skip validate for goreleaser\n4993bdf
+        specify GO111MODULE=off if dev dep\n78fa167 tidy\n024fa9f update\n2464a76
+        update .goreleaser.yml\n41cb75c update Makefile\n57296e5 update Makefile\n7bddce3
+        update Makefile\n2135907 update Makefile\n6fd6e3a update Makefile\nfcfeac6
+        update clean target\nc4ccc7f update deploy pipeline to travis\n44ca1b1 update
+        go.mod\n287753b update goreleaser.yml\ne980418 update modules\n763e01c use
+        RemoveAll\n\n"}'
+    http_version: 
+  recorded_at: Sun, 09 Dec 2018 01:47:02 GMT
+recorded_with: VCR 4.0.0
