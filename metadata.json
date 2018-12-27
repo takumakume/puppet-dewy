@@ -14,7 +14,7 @@
     },
     {
       "name": "takumakume/github_release_properties",
-      "version_requirement": ">= 0.1.0"
+      "version_requirement": ">= 0.2.0"
     }
   ],
   "operatingsystem_support": [
